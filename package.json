@@ -9,18 +9,21 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@buf/safedep_api.connectrpc_es": "^1.6.1-20241117092917-2fd4dbf7c52e.1",
+    "@connectrpc/connect-node": "^1.6.1",
+    "@tailwindcss/postcss": "^4.1.18",
     "next": "16.1.1",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "shadcn": "^3.6.3"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
-    "@types/react": "^19",
+    "@types/react": "^19.2.8",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
-    "tailwindcss": "^4",
+    "tailwind-scrollbar": "^4.0.2",
     "typescript": "^5"
   }
 }
