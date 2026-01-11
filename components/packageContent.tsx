@@ -29,7 +29,7 @@ export default function PackageContent({insights,malysis}:packageContent){
 
                     <div className="flex sm:gap-2">
                         <p className="text-gray-500 min-w-[110px]">Confidence</p>
-                        <p className="break-all">{malysis.report.inference.confidence}</p>
+                        <p className="break-all">{malysis.report.inference.confidence==="CONFIDENCE_HIGH" ? "High": "Low"}</p>
                     </div>
                 </div>
 
