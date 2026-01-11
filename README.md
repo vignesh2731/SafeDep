@@ -12,7 +12,7 @@ npm install
 ###  2. Insert env variables
 
 ```bash
-cp .env.example .env 
+touch .env
 ```
 SAFEDEP_API_KEY=your_api_key_here </br>
 SAFEDEP_TENANT_ID=your_tenant_id_here
