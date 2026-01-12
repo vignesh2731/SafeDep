@@ -16,7 +16,7 @@ export function SearchBar(){
                     <input className="block w-full p-3 ps-9 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand shadow-xs placeholder:text-body" placeholder=" /npm/express/v1" required onChange={(e)=>setSearch(e.target.value)}/>
                     <button onClick={()=>{
                         router.push(`/p${search}`)
-                    }} className="absolute end-1.5 bottom-1.5 text-black bg-white p-1 rounded-sm hover:bg-slate-700 hover:text-white ">
+                    }} className="absolute end-1.5 bottom-1.5 text-black bg-white p-1 rounded-sm hover:bg-slate-700 hover:text-white px-6">
                         Search
                     </button>
                 </div>
